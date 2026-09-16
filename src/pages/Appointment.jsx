@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import toast from "react-hot-toast";
-import { useAuth } from "../context/useAuth";
+import { useAuth } from "../context/auth/useAuth";
 import {
   ArrowLeft,
   CalendarDays,

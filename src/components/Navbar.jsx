@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { Menu, X, UserRound, LogOut, CalendarDays, HeartPulse } from "lucide-react";
+import { Menu, X, UserRound, LogOut, CalendarDays, HeartPulse, House, Stethoscope, Info, LayoutDashboard, MessageCircle } from "lucide-react";
 import toast from "react-hot-toast";
 
-import { useAuth } from "../context/useAuth";
+import { useAuth } from "../context/auth/useAuth";
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase/firebase.config";
-import { useAdmin } from "../context/useAdmin";
+import { useAdmin } from "../context/admin/useAdmin";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* Desktop Navigation */}
-                <nav className="hidden items-center gap-7 md:flex">
+                <nav className="hidden items-center gap-7 lg:flex">
                     <NavLink to="/" className={navLinkClass}>
                         Home
                     </NavLink>
@@ -69,25 +69,31 @@ const Navbar = () => {
 
                     <NavLink
                         to="/about"
-                        className="text-slate-600 transition-colors hover:text-sky-600"
+                        className={navLinkClass}
                     >
                         About
                     </NavLink>
 
+                    <NavLink
+                        to="/contact"
+                        className={navLinkClass}
+                    >
+                        Contact
+                    </NavLink>
+
                     {user ? (
                         <>
+                            <NavLink to="/my-appointments"
+                                className={navLinkClass}>
+                                My Appointments
+                            </NavLink>
+
                             {isAdmin && (
                                 <NavLink
                                     to="/admin"
                                     className={navLinkClass}
                                 >
                                     Admin Dashboard
-                                </NavLink>
-                            )}
-                            {!isAdmin && (
-                                <NavLink to="/my-appointments"
-                                    className={navLinkClass}>
-                                    My Appointments
                                 </NavLink>
                             )}
 
@@ -135,7 +141,7 @@ const Navbar = () => {
                 <button
                     type="button"
                     onClick={() => setIsMenuOpen((previous) => !previous)}
-                    className="rounded-lg p-2 text-slate-600 transition hover:bg-slate-100 md:hidden"
+                    className="rounded-lg p-2 text-slate-600 transition hover:bg-slate-100 lg:hidden"
                     aria-label="Toggle navigation menu"
                 >
                     {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -144,46 +150,88 @@ const Navbar = () => {
 
             {/* Mobile Navigation */}
             {isMenuOpen && (
-                <div className="border-t border-slate-200 bg-white px-4 py-4 md:hidden">
+                <div className="border-t border-slate-200 bg-white px-4 py-4 lg:hidden">
                     <nav className="flex flex-col gap-2">
 
                         <NavLink
                             to="/"
-                            className={navLinkClass}
+                            className={({ isActive }) =>
+                                `transition ${isActive
+                                    ? "bg-sky-50 text-sky-600 font-semibold"
+                                    : "text-slate-600 hover:bg-slate-50 hover:text-sky-600"
+                                }`
+                            }
                             onClick={() => setIsMenuOpen(false)}
                         >
-                            <span className="block rounded-lg px-3 py-2">
+                            <span className="flex items-center gap-2 rounded-lg px-3 py-2">
+                                <House size={18} />
                                 Home
                             </span>
                         </NavLink>
 
                         <NavLink
                             to="/doctors"
-                            className={navLinkClass}
+                            className={({ isActive }) =>
+                                `transition ${isActive
+                                    ? "bg-sky-50 text-sky-600 font-semibold"
+                                    : "text-slate-600 hover:bg-slate-50 hover:text-sky-600"
+                                }`
+                            }
                             onClick={() => setIsMenuOpen(false)}
                         >
-                            <span className="block rounded-lg px-3 py-2">
+                            <span className="flex items-center gap-2 rounded-lg px-3 py-2">
+                                <Stethoscope size={18} />
                                 Doctors
                             </span>
                         </NavLink>
 
-                        <a
-                            href="#about"
+                        <NavLink
+                            to="/about"
+                            className={({ isActive }) =>
+                                `transition ${isActive
+                                    ? "bg-sky-50 text-sky-600 font-semibold"
+                                    : "text-slate-600 hover:bg-slate-50 hover:text-sky-600"
+                                }`
+                            }
                             onClick={() => setIsMenuOpen(false)}
-                            className="rounded-lg px-3 py-2 text-slate-600 transition hover:bg-slate-50 hover:text-sky-600"
                         >
-                            About
-                        </a>
+                            <span className="flex items-center gap-2 rounded-lg px-3 py-2">
+                                <Info size={18} />
+                                About
+                            </span>
+                        </NavLink>
+
+                        <NavLink
+                            to="/contact"
+                            className={({ isActive }) =>
+                                `transition ${isActive
+                                    ? "bg-sky-50 text-sky-600 font-semibold"
+                                    : "text-slate-600 hover:bg-slate-50 hover:text-sky-600"
+                                }`
+                            }
+                            onClick={() => setIsMenuOpen(false)}
+                        >
+                            <span className="flex items-center gap-2 rounded-lg px-3 py-2">
+                                <MessageCircle size={18} />
+                                Contact
+                            </span>
+                        </NavLink>
 
                         {user ? (
                             <>
                                 {isAdmin && (
                                     <NavLink
                                         to="/admin"
-                                        className={navLinkClass}
+                                        className={({ isActive }) =>
+                                            `transition ${isActive
+                                                ? "bg-sky-50 text-sky-600 font-semibold"
+                                                : "text-slate-600 hover:bg-slate-50 hover:text-sky-600"
+                                            }`
+                                        }
                                         onClick={() => setIsMenuOpen(false)}
                                     >
-                                        <span className="block rounded-lg px-3 py-2">
+                                        <span className="flex items-center gap-2 rounded-lg px-3 py-2">
+                                            <LayoutDashboard size={18} />
                                             Admin Dashboard
                                         </span>
                                     </NavLink>
@@ -191,7 +239,12 @@ const Navbar = () => {
 
                                 <NavLink
                                     to="/my-appointments"
-                                    className={navLinkClass}
+                                    className={({ isActive }) =>
+                                        `transition ${isActive
+                                            ? "bg-sky-50 text-sky-600 font-semibold"
+                                            : "text-slate-600 hover:bg-slate-50 hover:text-sky-600"
+                                        }`
+                                    }
                                     onClick={() => setIsMenuOpen(false)}
                                 >
                                     <span className="flex items-center gap-2 rounded-lg px-3 py-2">

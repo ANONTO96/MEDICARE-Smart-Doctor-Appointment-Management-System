@@ -10,7 +10,7 @@ import {
   Wallet,
 } from "lucide-react";
 
-import { useAuth } from "../context/useAuth";
+import { useAuth } from "../context/auth/useAuth";
 import { getUserAppointments } from "../services/appointmentService";
 import { formatTime } from "../utils/appointmentUtils";
 

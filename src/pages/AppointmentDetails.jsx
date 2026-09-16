@@ -15,7 +15,7 @@ import {
   XCircle,
 } from "lucide-react";
 
-import { useAuth } from "../context/useAuth";
+import { useAuth } from "../context/auth/useAuth";
 
 import {
   cancelAppointment,

@@ -15,14 +15,18 @@ import Navbar from "./components/Navbar";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminRoute from "./components/AdminRoute";
 import About from "./pages/About";
+import { Toaster } from "react-hot-toast";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <BrowserRouter>
+    <Toaster position="top-right" />
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
 
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

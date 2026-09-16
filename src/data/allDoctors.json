@@ -9,7 +9,7 @@
     "qualification": "MBBS, FCPS (Cardiology)",
     "experience": 12,
     "consultationFee": 1000,
-    "image": "/doctors/sarah-ahmed.jpg",
+    "image": "/doctors/01-sarah-ahmed.png",
     "about": "Dr. Sarah Ahmed specializes in cardiovascular health, hypertension, heart disease prevention and general cardiac care.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -41,7 +41,7 @@
     "qualification": "MBBS, MD (Neurology)",
     "experience": 10,
     "consultationFee": 1200,
-    "image": "/doctors/md-rahman.jpg",
+    "image": "/doctors/02-md-rahman.png",
     "about": "Dr. Md. Rahman provides diagnosis and treatment for neurological disorders, headaches, migraine and nerve-related conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -73,7 +73,7 @@
     "qualification": "MBBS, DDV",
     "experience": 8,
     "consultationFee": 800,
-    "image": "/doctors/nusrat-jahan.jpg",
+    "image": "/doctors/03-nusrat-jahan.jpg",
     "about": "Dr. Nusrat Jahan specializes in skin, hair and cosmetic dermatology.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -105,7 +105,7 @@
     "qualification": "MBBS, MS (Orthopedics)",
     "experience": 15,
     "consultationFee": 1200,
-    "image": "/doctors/kamal-hossain.jpg",
+    "image": "/doctors/04-kamal-hossain.png",
     "about": "Dr. Kamal Hossain specializes in bone, joint, muscle and orthopedic conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -137,7 +137,7 @@
     "qualification": "MBBS, DCH",
     "experience": 9,
     "consultationFee": 900,
-    "image": "/doctors/farzana-yasmin.jpg",
+    "image": "/doctors/05-farzana-yasmin.png",
     "about": "Dr. Farzana Yasmin provides comprehensive healthcare services for infants, children and adolescents.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -169,7 +169,7 @@
     "qualification": "MBBS, FCPS (Medicine)",
     "experience": 11,
     "consultationFee": 700,
-    "image": "/doctors/arif-hasan.jpg",
+    "image": "/doctors/06-arif-hasan.png",
     "about": "Dr. Arif Hasan provides general medical consultation, preventive care and treatment for common illnesses.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -201,7 +201,7 @@
     "qualification": "MBBS, MD (Cardiology)",
     "experience": 9,
     "consultationFee": 1000,
-    "image": "/doctors/tanvir-hossain.jpg",
+    "image": "/doctors/07-tanvir-hossain.png",
     "about": "Dr. Tanvir Hossain provides comprehensive cardiac care with a focus on hypertension, chest pain, heart disease prevention and cardiovascular risk management.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -233,7 +233,7 @@
     "qualification": "MBBS, FCPS (Cardiology)",
     "experience": 14,
     "consultationFee": 1300,
-    "image": "/doctors/mehedi-hasan.jpg",
+    "image": "/doctors/08-mehedi-hasan.jpg",
     "about": "Dr. Mehedi Hasan specializes in coronary artery disease, hypertension, cardiac risk assessment and long-term heart health management.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -265,7 +265,7 @@
     "qualification": "MBBS, D-CARD",
     "experience": 7,
     "consultationFee": 900,
-    "image": "/doctors/sadia-afrin.jpg",
+    "image": "/doctors/09-sadia-afrin.png",
     "about": "Dr. Sadia Afrin focuses on preventive cardiology, hypertension, heart health screening and general cardiovascular care.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -297,7 +297,7 @@
     "qualification": "MBBS, FCPS (Neurology)",
     "experience": 13,
     "consultationFee": 1400,
-    "image": "/doctors/fahim-ahmed.jpg",
+    "image": "/doctors/10-fahim-ahmed.jpg",
     "about": "Dr. Fahim Ahmed specializes in stroke care, epilepsy, migraine, neurological disorders and comprehensive nervous system evaluation.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -329,7 +329,7 @@
     "qualification": "MBBS, MD (Neurology)",
     "experience": 8,
     "consultationFee": 1100,
-    "image": "/doctors/samira-naznin.jpg",
+    "image": "/doctors/11-samira-naznin.png",
     "about": "Dr. Samira Naznin provides neurological consultation for migraine, headaches, dizziness, nerve disorders and other neurological conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -361,7 +361,7 @@
     "qualification": "MBBS, FCPS (Medicine), MD (Neurology)",
     "experience": 11,
     "consultationFee": 1250,
-    "image": "/doctors/rashed-karim.jpg",
+    "image": "/doctors/12-rashed-karim.jpg",
     "about": "Dr. Rashed Karim specializes in neurological diagnosis, headache disorders, movement disorders and nerve-related conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -393,7 +393,7 @@
     "qualification": "MBBS, FCPS (Dermatology)",
     "experience": 12,
     "consultationFee": 1100,
-    "image": "/doctors/mahinur-islam.jpg",
+    "image": "/doctors/13-mahinur-islam.png",
     "about": "Dr. Mahinur Islam specializes in medical and cosmetic dermatology, acne, pigmentation, hair disorders and skin allergies.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -425,7 +425,7 @@
     "qualification": "MBBS, DDV",
     "experience": 7,
     "consultationFee": 850,
-    "image": "/doctors/afia-sultana.jpg",
+    "image": "/doctors/14-afia-sultana.jpg",
     "about": "Dr. Afia Sultana provides treatment for acne, eczema, skin allergies, pigmentation and common hair-related conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -457,7 +457,7 @@
     "qualification": "MBBS, MD (Dermatology)",
     "experience": 10,
     "consultationFee": 1000,
-    "image": "/doctors/imran-kabir.jpg",
+    "image": "/doctors/15-imran-kabir.jpg",
     "about": "Dr. Imran Kabir specializes in clinical dermatology, hair loss, fungal infections, acne and cosmetic skin conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -489,7 +489,7 @@
     "qualification": "MBBS, MS (Orthopedics)",
     "experience": 16,
     "consultationFee": 1400,
-    "image": "/doctors/nabil-ahmed.jpg",
+    "image": "/doctors/16-nabil-ahmed.jpg",
     "about": "Dr. Nabil Ahmed specializes in orthopedic surgery, joint disorders, sports injuries and musculoskeletal conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -521,7 +521,7 @@
     "qualification": "MBBS, D-Ortho",
     "experience": 9,
     "consultationFee": 1000,
-    "image": "/doctors/sumaiya-haque.jpg",
+    "image": "/doctors/17-sumaiya-haque.png",
     "about": "Dr. Sumaiya Haque provides orthopedic consultation for joint pain, arthritis, sports injuries, fractures and musculoskeletal problems.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -553,7 +553,7 @@
     "qualification": "MBBS, MS (Orthopedics)",
     "experience": 12,
     "consultationFee": 1250,
-    "image": "/doctors/shahriar-mahmud.jpg",
+    "image": "/doctors/18-shahriar-mahmud.png",
     "about": "Dr. Shahriar Mahmud specializes in bone and joint disorders, back pain, sports injuries and orthopedic rehabilitation.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -585,7 +585,7 @@
     "qualification": "MBBS, FCPS (Pediatrics)",
     "experience": 13,
     "consultationFee": 1100,
-    "image": "/doctors/sabrina-rahman.jpg",
+    "image": "/doctors/19-sabrina-rahman.png",
     "about": "Dr. Sabrina Rahman provides comprehensive pediatric care including childhood illnesses, growth monitoring, nutrition and preventive healthcare.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -617,7 +617,7 @@
     "qualification": "MBBS, DCH",
     "experience": 8,
     "consultationFee": 850,
-    "image": "/doctors/rafi-ahmed.jpg",
+    "image": "/doctors/20-rafi-ahmed.png",
     "about": "Dr. Rafi Ahmed specializes in general pediatric care, childhood infections, nutrition, growth and adolescent health.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -649,7 +649,7 @@
     "qualification": "MBBS, MD (Pediatrics)",
     "experience": 10,
     "consultationFee": 950,
-    "image": "/doctors/tahmina-jahan.jpg",
+    "image": "/doctors/21-tahmina-jahan.png",
     "about": "Dr. Tahmina Jahan provides child-focused medical care for common illnesses, respiratory conditions, nutrition and preventive health.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -681,7 +681,7 @@
     "qualification": "MBBS, FCPS (Medicine)",
     "experience": 15,
     "consultationFee": 900,
-    "image": "/doctors/masud-karim.jpg",
+    "image": "/doctors/22-masud-karim.jpg",
     "about": "Dr. Masud Karim provides comprehensive general medical care, preventive health services and treatment for common adult illnesses.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -713,7 +713,7 @@
     "qualification": "MBBS, MRCP (UK)",
     "experience": 9,
     "consultationFee": 800,
-    "image": "/doctors/nadia-sultana.jpg",
+    "image": "/doctors/23-nadia-sultana.png",
     "about": "Dr. Nadia Sultana provides general medical consultation, preventive care and management of common chronic health conditions.",
     "languages": ["English", "Bangla"],
     "schedule": [
@@ -745,7 +745,7 @@
     "qualification": "MBBS, FCPS (Medicine)",
     "experience": 12,
     "consultationFee": 850,
-    "image": "/doctors/mahmudul-hasan.jpg",
+    "image": "/doctors/24-mahmudul-hasan.jpg",
     "about": "Dr. Mahmudul Hasan specializes in general medicine, preventive healthcare, fever and infection management and adult primary care.",
     "languages": ["English", "Bangla"],
     "schedule": [
